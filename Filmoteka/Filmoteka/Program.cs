@@ -16,7 +16,7 @@ namespace Filmoteka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MarksForm());
+            Application.Run(new Form3());
         }
     }
 }
