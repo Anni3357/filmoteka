@@ -14,14 +14,15 @@ namespace Filmoteka
     {
         string mark;
         int x;
+        string Z = GlobalClass.Variant1;
         public MarksForm()
         {
             InitializeComponent();
-           
+            namefilmLabel.Text = GlobalClass.Variant1;
+            year.Text = GlobalClass.Variant2;
+            genre.Text = GlobalClass.Variant3;
+            director.Text = GlobalClass.Variant4;
         }
-
-        
-
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             valuelabel.Text = trackBar1.Value.ToString();
@@ -48,6 +49,13 @@ namespace Filmoteka
                 pictureBox6.Visible = false;
 
             } */
+        }
+
+        private void MarksForm_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.Films". При необходимости она может быть перемещена или удалена.
+            this.filmsTableAdapter.Fill(this.dataSet1.Films);
+
         }
     }
 }

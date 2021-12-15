@@ -42,18 +42,11 @@ namespace Filmoteka
             this.filmsTableAdapter = new Filmoteka.DataSet1TableAdapters.FilmsTableAdapter();
             this.tableAdapterManager = new Filmoteka.DataSet1TableAdapters.TableAdapterManager();
             this.filmsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.filmsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.filmsDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -71,6 +64,13 @@ namespace Filmoteka
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.filmsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             id_filmLabel = new System.Windows.Forms.Label();
             nameLabel = new System.Windows.Forms.Label();
             yearLabel = new System.Windows.Forms.Label();
@@ -87,54 +87,60 @@ namespace Filmoteka
             // id_filmLabel
             // 
             id_filmLabel.AutoSize = true;
-            id_filmLabel.Location = new System.Drawing.Point(22, 288);
+            id_filmLabel.Location = new System.Drawing.Point(16, 234);
+            id_filmLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             id_filmLabel.Name = "id_filmLabel";
-            id_filmLabel.Size = new System.Drawing.Size(78, 17);
+            id_filmLabel.Size = new System.Drawing.Size(61, 13);
             id_filmLabel.TabIndex = 2;
             id_filmLabel.Text = "id фильма:";
             // 
             // nameLabel
             // 
             nameLabel.AutoSize = true;
-            nameLabel.Location = new System.Drawing.Point(22, 316);
+            nameLabel.Location = new System.Drawing.Point(16, 257);
+            nameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             nameLabel.Name = "nameLabel";
-            nameLabel.Size = new System.Drawing.Size(76, 17);
+            nameLabel.Size = new System.Drawing.Size(60, 13);
             nameLabel.TabIndex = 4;
             nameLabel.Text = "Название:";
             // 
             // yearLabel
             // 
             yearLabel.AutoSize = true;
-            yearLabel.Location = new System.Drawing.Point(22, 344);
+            yearLabel.Location = new System.Drawing.Point(16, 280);
+            yearLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             yearLabel.Name = "yearLabel";
-            yearLabel.Size = new System.Drawing.Size(94, 17);
+            yearLabel.Size = new System.Drawing.Size(74, 13);
             yearLabel.TabIndex = 6;
             yearLabel.Text = "Год выпуска:";
             // 
             // urlLabel
             // 
             urlLabel.AutoSize = true;
-            urlLabel.Location = new System.Drawing.Point(22, 372);
+            urlLabel.Location = new System.Drawing.Point(16, 302);
+            urlLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             urlLabel.Name = "urlLabel";
-            urlLabel.Size = new System.Drawing.Size(148, 17);
+            urlLabel.Size = new System.Drawing.Size(116, 13);
             urlLabel.TabIndex = 8;
             urlLabel.Text = "Ссылка на просмотр:";
             // 
             // directorLabel
             // 
             directorLabel.AutoSize = true;
-            directorLabel.Location = new System.Drawing.Point(22, 400);
+            directorLabel.Location = new System.Drawing.Point(16, 325);
+            directorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             directorLabel.Name = "directorLabel";
-            directorLabel.Size = new System.Drawing.Size(76, 17);
+            directorLabel.Size = new System.Drawing.Size(61, 13);
             directorLabel.TabIndex = 10;
             directorLabel.Text = "Режиссер:";
             // 
             // ganreLabel
             // 
             ganreLabel.AutoSize = true;
-            ganreLabel.Location = new System.Drawing.Point(22, 428);
+            ganreLabel.Location = new System.Drawing.Point(16, 348);
+            ganreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             ganreLabel.Name = "ganreLabel";
-            ganreLabel.Size = new System.Drawing.Size(49, 17);
+            ganreLabel.Size = new System.Drawing.Size(39, 13);
             ganreLabel.TabIndex = 12;
             ganreLabel.Text = "Жанр:";
             // 
@@ -188,52 +194,16 @@ namespace Filmoteka
             this.filmsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.filmsBindingNavigator.Name = "filmsBindingNavigator";
             this.filmsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.filmsBindingNavigator.Size = new System.Drawing.Size(973, 27);
+            this.filmsBindingNavigator.Size = new System.Drawing.Size(730, 27);
             this.filmsBindingNavigator.TabIndex = 0;
             this.filmsBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(55, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 24);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
@@ -246,7 +216,7 @@ namespace Filmoteka
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(38, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
@@ -255,37 +225,10 @@ namespace Filmoteka
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
-            // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
-            // 
-            // filmsBindingNavigatorSaveItem
-            // 
-            this.filmsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.filmsBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("filmsBindingNavigatorSaveItem.Image")));
-            this.filmsBindingNavigatorSaveItem.Name = "filmsBindingNavigatorSaveItem";
-            this.filmsBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.filmsBindingNavigatorSaveItem.Text = "Сохранить данные";
-            this.filmsBindingNavigatorSaveItem.Click += new System.EventHandler(this.filmsBindingNavigatorSaveItem_Click);
             // 
             // filmsDataGridView
             // 
@@ -301,11 +244,12 @@ namespace Filmoteka
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.filmsDataGridView.DataSource = this.filmsBindingSource;
-            this.filmsDataGridView.Location = new System.Drawing.Point(12, 41);
+            this.filmsDataGridView.Location = new System.Drawing.Point(9, 33);
+            this.filmsDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.filmsDataGridView.Name = "filmsDataGridView";
             this.filmsDataGridView.RowHeadersWidth = 51;
             this.filmsDataGridView.RowTemplate.Height = 24;
-            this.filmsDataGridView.Size = new System.Drawing.Size(937, 220);
+            this.filmsDataGridView.Size = new System.Drawing.Size(703, 179);
             this.filmsDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -361,56 +305,64 @@ namespace Filmoteka
             // id_filmTextBox
             // 
             this.id_filmTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "id_film", true));
-            this.id_filmTextBox.Location = new System.Drawing.Point(177, 288);
+            this.id_filmTextBox.Location = new System.Drawing.Point(133, 234);
+            this.id_filmTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.id_filmTextBox.Name = "id_filmTextBox";
-            this.id_filmTextBox.Size = new System.Drawing.Size(414, 22);
+            this.id_filmTextBox.Size = new System.Drawing.Size(312, 20);
             this.id_filmTextBox.TabIndex = 3;
+            this.id_filmTextBox.TextChanged += new System.EventHandler(this.id_filmTextBox_TextChanged);
             // 
             // nameTextBox
             // 
             this.nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "name", true));
-            this.nameTextBox.Location = new System.Drawing.Point(177, 316);
+            this.nameTextBox.Location = new System.Drawing.Point(133, 257);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(414, 22);
+            this.nameTextBox.Size = new System.Drawing.Size(312, 20);
             this.nameTextBox.TabIndex = 5;
             // 
             // yearTextBox
             // 
             this.yearTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "year", true));
-            this.yearTextBox.Location = new System.Drawing.Point(177, 344);
+            this.yearTextBox.Location = new System.Drawing.Point(133, 280);
+            this.yearTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.yearTextBox.Name = "yearTextBox";
-            this.yearTextBox.Size = new System.Drawing.Size(414, 22);
+            this.yearTextBox.Size = new System.Drawing.Size(312, 20);
             this.yearTextBox.TabIndex = 7;
             // 
             // urlTextBox
             // 
             this.urlTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "url", true));
-            this.urlTextBox.Location = new System.Drawing.Point(177, 372);
+            this.urlTextBox.Location = new System.Drawing.Point(133, 302);
+            this.urlTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.urlTextBox.Name = "urlTextBox";
-            this.urlTextBox.Size = new System.Drawing.Size(414, 22);
+            this.urlTextBox.Size = new System.Drawing.Size(312, 20);
             this.urlTextBox.TabIndex = 9;
             // 
             // directorTextBox
             // 
             this.directorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "director", true));
-            this.directorTextBox.Location = new System.Drawing.Point(177, 400);
+            this.directorTextBox.Location = new System.Drawing.Point(133, 325);
+            this.directorTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.directorTextBox.Name = "directorTextBox";
-            this.directorTextBox.Size = new System.Drawing.Size(414, 22);
+            this.directorTextBox.Size = new System.Drawing.Size(312, 20);
             this.directorTextBox.TabIndex = 11;
             // 
             // ganreTextBox
             // 
             this.ganreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.filmsBindingSource, "ganre", true));
-            this.ganreTextBox.Location = new System.Drawing.Point(177, 428);
+            this.ganreTextBox.Location = new System.Drawing.Point(133, 348);
+            this.ganreTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ganreTextBox.Name = "ganreTextBox";
-            this.ganreTextBox.Size = new System.Drawing.Size(414, 22);
+            this.ganreTextBox.Size = new System.Drawing.Size(312, 20);
             this.ganreTextBox.TabIndex = 13;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(752, 282);
+            this.button1.Location = new System.Drawing.Point(564, 229);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 45);
+            this.button1.Size = new System.Drawing.Size(148, 37);
             this.button1.TabIndex = 14;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
@@ -418,9 +370,10 @@ namespace Filmoteka
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(752, 330);
+            this.button2.Location = new System.Drawing.Point(564, 268);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 45);
+            this.button2.Size = new System.Drawing.Size(148, 37);
             this.button2.TabIndex = 15;
             this.button2.Text = "Сохранить";
             this.button2.UseVisualStyleBackColor = true;
@@ -428,18 +381,82 @@ namespace Filmoteka
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(752, 494);
+            this.button3.Location = new System.Drawing.Point(564, 401);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 45);
+            this.button3.Size = new System.Drawing.Size(148, 37);
             this.button3.TabIndex = 16;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
+            // 
+            // filmsBindingNavigatorSaveItem
+            // 
+            this.filmsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.filmsBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("filmsBindingNavigatorSaveItem.Image")));
+            this.filmsBindingNavigatorSaveItem.Name = "filmsBindingNavigatorSaveItem";
+            this.filmsBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
+            this.filmsBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.filmsBindingNavigatorSaveItem.Click += new System.EventHandler(this.filmsBindingNavigatorSaveItem_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 551);
+            this.ClientSize = new System.Drawing.Size(730, 448);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -457,6 +474,7 @@ namespace Filmoteka
             this.Controls.Add(this.ganreTextBox);
             this.Controls.Add(this.filmsDataGridView);
             this.Controls.Add(this.filmsBindingNavigator);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

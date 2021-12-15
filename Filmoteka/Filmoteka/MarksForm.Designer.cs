@@ -29,27 +29,34 @@ namespace Filmoteka
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.namefilm = new System.Windows.Forms.Label();
-            this.year = new System.Windows.Forms.Label();
-            this.director = new System.Windows.Forms.Label();
-            this.genre = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.valuelabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.dataSet1 = new Filmoteka.DataSet1();
+            this.filmsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.filmsTableAdapter = new Filmoteka.DataSet1TableAdapters.FilmsTableAdapter();
+            this.tableAdapterManager = new Filmoteka.DataSet1TableAdapters.TableAdapterManager();
+            this.namefilmLabel = new System.Windows.Forms.Label();
+            this.genre = new System.Windows.Forms.Label();
+            this.director = new System.Windows.Forms.Label();
+            this.year = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.filmsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,46 +69,6 @@ namespace Filmoteka
             this.label1.Size = new System.Drawing.Size(514, 73);
             this.label1.TabIndex = 0;
             this.label1.Text = "Оцените фильм";
-            // 
-            // namefilm
-            // 
-            this.namefilm.AutoSize = true;
-            this.namefilm.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.namefilm.Location = new System.Drawing.Point(246, 107);
-            this.namefilm.Name = "namefilm";
-            this.namefilm.Size = new System.Drawing.Size(315, 39);
-            this.namefilm.TabIndex = 2;
-            this.namefilm.Text = "Название фильма";
-            // 
-            // year
-            // 
-            this.year.AutoSize = true;
-            this.year.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.year.Location = new System.Drawing.Point(248, 158);
-            this.year.Name = "year";
-            this.year.Size = new System.Drawing.Size(44, 25);
-            this.year.TabIndex = 3;
-            this.year.Text = "год";
-            // 
-            // director
-            // 
-            this.director.AutoSize = true;
-            this.director.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.director.Location = new System.Drawing.Point(247, 203);
-            this.director.Name = "director";
-            this.director.Size = new System.Drawing.Size(139, 31);
-            this.director.TabIndex = 4;
-            this.director.Text = "Режиссер";
-            // 
-            // genre
-            // 
-            this.genre.AutoSize = true;
-            this.genre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.genre.Location = new System.Drawing.Point(332, 158);
-            this.genre.Name = "genre";
-            this.genre.Size = new System.Drawing.Size(63, 25);
-            this.genre.TabIndex = 5;
-            this.genre.Text = "жанр";
             // 
             // trackBar1
             // 
@@ -160,14 +127,6 @@ namespace Filmoteka
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(31, 107);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 238);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // valuelabel
             // 
             this.valuelabel.AutoSize = true;
@@ -197,11 +156,84 @@ namespace Filmoteka
             this.button1.Text = "Оценить";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // filmsBindingSource
+            // 
+            this.filmsBindingSource.DataMember = "Films";
+            this.filmsBindingSource.DataSource = this.dataSet1;
+            // 
+            // filmsTableAdapter
+            // 
+            this.filmsTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.DirectorTableAdapter = null;
+            this.tableAdapterManager.FilmsTableAdapter = this.filmsTableAdapter;
+            this.tableAdapterManager.MarksTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = Filmoteka.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UsersTableAdapter = null;
+            // 
+            // namefilmLabel
+            // 
+            this.namefilmLabel.AutoSize = true;
+            this.namefilmLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namefilmLabel.Location = new System.Drawing.Point(246, 107);
+            this.namefilmLabel.Name = "namefilmLabel";
+            this.namefilmLabel.Size = new System.Drawing.Size(315, 39);
+            this.namefilmLabel.TabIndex = 2;
+            this.namefilmLabel.Text = "Название фильма";
+            // 
+            // genre
+            // 
+            this.genre.AutoSize = true;
+            this.genre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genre.Location = new System.Drawing.Point(332, 158);
+            this.genre.Name = "genre";
+            this.genre.Size = new System.Drawing.Size(63, 25);
+            this.genre.TabIndex = 5;
+            this.genre.Text = "жанр";
+            // 
+            // director
+            // 
+            this.director.AutoSize = true;
+            this.director.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.director.Location = new System.Drawing.Point(247, 203);
+            this.director.Name = "director";
+            this.director.Size = new System.Drawing.Size(139, 31);
+            this.director.TabIndex = 4;
+            this.director.Text = "Режиссер";
+            // 
+            // year
+            // 
+            this.year.AutoSize = true;
+            this.year.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.year.Location = new System.Drawing.Point(248, 158);
+            this.year.Name = "year";
+            this.year.Size = new System.Drawing.Size(44, 25);
+            this.year.TabIndex = 3;
+            this.year.Text = "год";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(27, 107);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(213, 236);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
             // MarksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(649, 589);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.valuelabel);
@@ -214,17 +246,19 @@ namespace Filmoteka
             this.Controls.Add(this.genre);
             this.Controls.Add(this.director);
             this.Controls.Add(this.year);
-            this.Controls.Add(this.namefilm);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.namefilmLabel);
             this.Controls.Add(this.label1);
             this.Name = "MarksForm";
             this.Text = "MarksForm";
+            this.Load += new System.EventHandler(this.MarksForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.filmsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -234,11 +268,6 @@ namespace Filmoteka
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label namefilm;
-        private System.Windows.Forms.Label year;
-        private System.Windows.Forms.Label director;
-        private System.Windows.Forms.Label genre;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -248,5 +277,14 @@ namespace Filmoteka
         private System.Windows.Forms.Label valuelabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
+        private DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource filmsBindingSource;
+        private DataSet1TableAdapters.FilmsTableAdapter filmsTableAdapter;
+        private DataSet1TableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.Label namefilmLabel;
+        private System.Windows.Forms.Label genre;
+        private System.Windows.Forms.Label director;
+        private System.Windows.Forms.Label year;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

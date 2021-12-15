@@ -38,3 +38,4 @@ D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateR
 D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
 D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
 D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.UserForm.resources
