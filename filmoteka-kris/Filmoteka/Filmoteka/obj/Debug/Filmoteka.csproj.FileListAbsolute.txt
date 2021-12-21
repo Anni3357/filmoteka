@@ -1,0 +1,92 @@
+D:\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+D:\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+D:\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.AssemblyReference.cache
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
+D:\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form3.resources
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.AssemblyReference.cache
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.SuggestedBindingRedirects.cache
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form3.resources
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+C:\Users\Иван\Documents\GitHub\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.LoginForm.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+D:\учеба\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+D:\учеба\filmoteka\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csprojAssemblyReference.cache
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form3.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.LoginForm.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.MarksForm.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\учеба\filmoteka\Filmoteka\Filmoteka\obj\Debug\Filmoteka.UserForm.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.AssemblyReference.cache
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form3.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.LoginForm.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.MarksForm.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.UserForm.resources
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form4.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.AssemblyReference.cache
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form3.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form4.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.LoginForm.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.MarksForm.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.UserForm.resources
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\4 курс\Дудич\Практика\filmoteka\filmoteka-f10f36f6a4c8426dc9977e88b219fabc73cb867b\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Start.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe.config
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\bin\Debug\Filmoteka.exe
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\bin\Debug\Filmoteka.pdb
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.AssemblyReference.cache
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.LoginForm.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.MarksForm.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Properties.Resources.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Start.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.GenerateResource.cache
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.csproj.CoreCompileInputs.cache
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.exe
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.pdb
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.RegForm.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.bazFilm.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.bazPolz.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.User.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form1.resources
+D:\filmoteka\filmoteka-kris\Filmoteka\Filmoteka\obj\Debug\Filmoteka.Form2.resources
